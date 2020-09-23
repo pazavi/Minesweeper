@@ -1,0 +1,89 @@
+
+
+
+body {
+    background-color: rgb(24, 92, 180);
+    font-family: cursive;
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+  } 
+
+  
+
+
+ h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin: auto;
+    display: inline;
+  
+  
+  }
+  
+ .timer {
+    width: 200px;
+    background-color:  rgb(0, 0, 0);
+    color: rgb(55, 227, 78);
+    font-family: cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+  
+  } 
+  
+ .counter {
+    width: 200px;
+    background-color:  rgb(0, 0, 0);
+    color: rgb(55, 227, 78);
+    font-family: cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+  
+  }
+ .smiley {
+    width: 100px;
+    background-color:  rgb(0, 0, 0);
+    color: rgb(55, 227, 78);
+    font-family: cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+  
+  }
+  
+  
+  table {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: solid 1px black;
+  }
+
+  .cell {
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+    font-size: 28px;
+    border: solid 1px black;
+  }
+  
+
+  
+
+  
+
+    /* .formLine {
+    margin:10px;
+    padding:10px;
+    background-color: cornflowerblue;
+  } */
