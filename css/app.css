@@ -1,0 +1,317 @@
+
+
+
+body {
+    background-color: #15869B;
+    background-image: url(../imgs/mines2.png);
+    font-family: 'Sarpanch';
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+  } 
+
+  
+
+
+ h1 {
+    text-align: center;
+    color:rgb(253, 253, 253);
+    text-shadow: 1px 1px 2px black, 0 0 25px  #062C31, 0 0 5px #4a4949;
+    font-size: 45px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: inline-block;
+  
+  }
+  
+  .beginner-btn {
+    width: 100px;
+    height: 25;
+    background-color:  #4a4949;
+    border: 0px;
+    border-radius: 5px;
+    color:rgb(130, 237, 249);
+    text-shadow: 1px 1px 2px black, 0 0 25px  #062C31, 0 0 5px #4a4949;
+    font-family: 'Sarpanch';
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+    margin: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+    cursor: pointer;
+    outline: none; 
+  
+  } 
+
+  .beginner-btn:hover{
+    background-color:#062C31;
+    color: #FFCA37;
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+    
+  }
+
+  
+  .medium-btn {
+    width: 100px;
+    height: 25;
+    background-color:   #4a4949;
+    border: 0px;
+    border-radius: 5px;
+    color:rgb(130, 237, 249);
+    text-shadow: 1px 1px 2px black, 0 0 25px  #062C31, 0 0 5px #4a4949;
+    font-family: 'Sarpanch';
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+    margin: auto;
+    display: inline-block;
+    cursor: pointer;
+    outline: none; 
+  
+  } 
+
+  .medium-btn:hover{
+    background-color:#062C31;
+    color: #FFCA37;
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+  }
+
+  .expert-btn {
+    width: 100px;
+    height: 25;
+    background-color:   #4a4949;
+    border: 0px;
+    border-radius: 5px;
+    color:rgb(130, 237, 249);
+    text-shadow: 1px 1px 2px black, 0 0 25px  #062C31, 0 0 5px #4a4949;
+    font-family: 'Sarpanch';
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+    margin: auto;
+    display: inline-block;
+    cursor: pointer;
+    outline: none; 
+  
+  } 
+
+  .expert-btn:hover{
+    background-color:#062C31;
+    color: #FFCA37;
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+  }
+
+ .timer {
+    width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:  #062C31;
+    border-radius: 30px;
+    color:rgb(130, 237, 249);
+    text-shadow: 1px 1px 2px black, 0 0 25px  #062C31, 0 0 5px #4a4949;
+    font-family: 'Sarpanch';
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+  
+  } 
+  
+ .counter {
+    width: 100px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #062C31;
+    border-radius: 30px;
+    color:rgb(130, 237, 249);
+    text-shadow: 1px 1px 2px black, 0 0 25px  #062C31, 0 0 5px #4a4949;
+    font-family: 'Sarpanch';
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+  
+  }
+ .smiley {
+    width: 30px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:  #062C31;
+    border-radius: 50%;
+    color: rgb(6, 132, 154);
+    font-family: 'Sarpanch';
+    font-size: 15px;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px  #062C31, 0 0 5px #4a4949; */
+    margin: 0 auto;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+  
+  }
+
+  .board-container{
+    display: block;
+        /* animation: shake 0.5s; */
+
+        /* animation-iteration-count: 5;  */
+  }
+  
+  
+  table, td {
+
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #062C31;
+    font-weight: bold;
+    background-color: rgba(253, 252, 253, 0.4);
+    table-layout: fixed;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 12px rgb(185, 185, 185);
+    border-collapse: collapse;
+
+  }
+  
+   @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } 
+  
+
+  .cell {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform .3s ease;
+    text-align: center;
+    font-size: 28px;
+    border: solid 1px rgb(185, 185, 185);;
+  }
+  
+.cell:hover{
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: rgb(234, 56, 56);
+  text-align: center;
+  font-size: 28px;
+  border: solid 1px black;
+}
+  
+.lives {
+  width:250px;
+  height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 30px;
+  background-image: url(../imgs/water.gif);
+  background-color:  rgba(6, 44, 49, 0.32);
+  text-align: center;
+  display: inline-block;
+}
+
+.lives  img{
+  width: 55px;
+  height: auto;
+  margin: auto;
+  margin-top: 4px;
+  position: relative;
+  transition: transform .3s ease;
+  text-align: center;
+  display: inline-block;
+}
+
+.lives  img:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+}
+
+
+
+.hints {
+  width:250px;
+  height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 30px;
+  background-image: url(../imgs/water.gif);
+  background-color:  rgba(6, 44, 49, 0.32);
+  text-align: center;
+  display: block;
+}
+
+.hints img{
+  width: 55px;
+  height: auto;
+  margin: auto;
+  margin-top: 4px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  transition: opacity .8s ease;
+}
+
+.hints img:hover{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1); 
+}
+
+.victory {
+
+  margin-bottom: 0px;
+  
+  text-align: center;
+  padding: 30px;
+
+}
+
+
+
+.victory img {
+  width:180px;
+  height:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  transition: opacity .8s ease;
+  background-image: url(../imgs/water.gif);
+  display: inline-block;
+ 
+}
+
+.victory img:hover{
+  background-color:#062C31;
+  color: #FFCA37;
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+}
